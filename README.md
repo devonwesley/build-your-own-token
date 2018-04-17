@@ -131,7 +131,7 @@ truffle(development)> token.totalSupply().then(s => s.toNumber())
 ### 15. Contract interactions. `token.transfer(ADDRESS, AMOUNT)`
 
 ```bash
-truffle(development> token.transfer(web3.eth.accounts[1], 10000)
+truffle(development)> token.transfer(web3.eth.accounts[1], 10000)
 ```
 
 ### 16. Check the balances after the transfer.
